@@ -1,0 +1,150 @@
+body,* {
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+}
+
+.wrapper{
+    padding: 105px;
+}
+
+/*========= ideas  =========*/
+
+.ideas{
+    display: flex;
+    flex-direction: column;
+    font-family: "kepler", serif;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #171D1C;
+}
+
+.ideas-wr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ideas-item{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #454851;
+
+    position: relative;
+
+}
+
+.ideas-item__img{
+
+    width: 360px;
+}
+
+.ideas-item__text{
+    width: 80%;
+    margin: 45px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translate3d(0,-50%,0);
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+.title--paragraph{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 15px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ffffff;
+
+
+}
+
+/*========= properties  =========*/
+.properties{
+    margin-top: 60px;
+    background-color: #FFFFFF;
+
+}
+
+.properties-wr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.properties-item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.properties-item__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.text-title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "kepler", serif;
+    background-color: #FFFFFF;
+    padding-bottom: 15px;
+
+
+}
+
+.text-paragraph{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "kepler", serif;
+    padding-right: 20px;
+    color: #454851;
+    background-color: #FFFFFF;
+    padding-bottom: 15px;
+
+}
+
+
+.text-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #ffff;
+    font-size: 21px;
+    color: #454851;
+    padding-bottom: 15px;
+
+}
+.text-btn{
+    background-color: #F31131;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "kepler", serif;
+    text-transform: uppercase;
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px 20px;
+    align-self: flex-start;
+}
